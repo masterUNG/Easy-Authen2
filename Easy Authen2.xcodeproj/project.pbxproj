@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ED9A1F91B1C2D2900424862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9A1F81B1C2D2900424862 /* AppDelegate.swift */; };
+		8ED9A1FB1B1C2D2900424862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9A1FA1B1C2D2900424862 /* ViewController.swift */; };
+		8ED9A1FE1B1C2D2900424862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED9A1FC1B1C2D2900424862 /* Main.storyboard */; };
+		8ED9A2001B1C2D2900424862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED9A1FF1B1C2D2900424862 /* Images.xcassets */; };
+		8ED9A2031B1C2D2900424862 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED9A2011B1C2D2900424862 /* LaunchScreen.xib */; };
+		8ED9A20F1B1C2D2900424862 /* Easy_Authen2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9A20E1B1C2D2900424862 /* Easy_Authen2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED9A2091B1C2D2900424862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED9A1EB1B1C2D2900424862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED9A1F21B1C2D2900424862;
+			remoteInfo = "Easy Authen2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ED9A1F31B1C2D2900424862 /* Easy Authen2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Authen2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED9A1F71B1C2D2900424862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED9A1F81B1C2D2900424862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ED9A1FA1B1C2D2900424862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8ED9A1FD1B1C2D2900424862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ED9A1FF1B1C2D2900424862 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8ED9A2021B1C2D2900424862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8ED9A2081B1C2D2900424862 /* Easy Authen2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy Authen2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED9A20D1B1C2D2900424862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED9A20E1B1C2D2900424862 /* Easy_Authen2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_Authen2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED9A1F01B1C2D2900424862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED9A2051B1C2D2900424862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED9A1EA1B1C2D2900424862 = {
+			isa = PBXGroup;
+			children = (
+				8ED9A1F51B1C2D2900424862 /* Easy Authen2 */,
+				8ED9A20B1B1C2D2900424862 /* Easy Authen2Tests */,
+				8ED9A1F41B1C2D2900424862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED9A1F41B1C2D2900424862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED9A1F31B1C2D2900424862 /* Easy Authen2.app */,
+				8ED9A2081B1C2D2900424862 /* Easy Authen2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED9A1F51B1C2D2900424862 /* Easy Authen2 */ = {
+			isa = PBXGroup;
+			children = (
+				8ED9A1F81B1C2D2900424862 /* AppDelegate.swift */,
+				8ED9A1FA1B1C2D2900424862 /* ViewController.swift */,
+				8ED9A1FC1B1C2D2900424862 /* Main.storyboard */,
+				8ED9A1FF1B1C2D2900424862 /* Images.xcassets */,
+				8ED9A2011B1C2D2900424862 /* LaunchScreen.xib */,
+				8ED9A1F61B1C2D2900424862 /* Supporting Files */,
+			);
+			path = "Easy Authen2";
+			sourceTree = "<group>";
+		};
+		8ED9A1F61B1C2D2900424862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED9A1F71B1C2D2900424862 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ED9A20B1B1C2D2900424862 /* Easy Authen2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED9A20E1B1C2D2900424862 /* Easy_Authen2Tests.swift */,
+				8ED9A20C1B1C2D2900424862 /* Supporting Files */,
+			);
+			path = "Easy Authen2Tests";
+			sourceTree = "<group>";
+		};
+		8ED9A20C1B1C2D2900424862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED9A20D1B1C2D2900424862 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED9A1F21B1C2D2900424862 /* Easy Authen2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED9A2121B1C2D2900424862 /* Build configuration list for PBXNativeTarget "Easy Authen2" */;
+			buildPhases = (
+				8ED9A1EF1B1C2D2900424862 /* Sources */,
+				8ED9A1F01B1C2D2900424862 /* Frameworks */,
+				8ED9A1F11B1C2D2900424862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Authen2";
+			productName = "Easy Authen2";
+			productReference = 8ED9A1F31B1C2D2900424862 /* Easy Authen2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ED9A2071B1C2D2900424862 /* Easy Authen2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED9A2151B1C2D2900424862 /* Build configuration list for PBXNativeTarget "Easy Authen2Tests" */;
+			buildPhases = (
+				8ED9A2041B1C2D2900424862 /* Sources */,
+				8ED9A2051B1C2D2900424862 /* Frameworks */,
+				8ED9A2061B1C2D2900424862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED9A20A1B1C2D2900424862 /* PBXTargetDependency */,
+			);
+			name = "Easy Authen2Tests";
+			productName = "Easy Authen2Tests";
+			productReference = 8ED9A2081B1C2D2900424862 /* Easy Authen2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED9A1EB1B1C2D2900424862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "EWTC Institute";
+				TargetAttributes = {
+					8ED9A1F21B1C2D2900424862 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8ED9A2071B1C2D2900424862 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8ED9A1F21B1C2D2900424862;
+					};
+				};
+			};
+			buildConfigurationList = 8ED9A1EE1B1C2D2900424862 /* Build configuration list for PBXProject "Easy Authen2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED9A1EA1B1C2D2900424862;
+			productRefGroup = 8ED9A1F41B1C2D2900424862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED9A1F21B1C2D2900424862 /* Easy Authen2 */,
+				8ED9A2071B1C2D2900424862 /* Easy Authen2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED9A1F11B1C2D2900424862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED9A1FE1B1C2D2900424862 /* Main.storyboard in Resources */,
+				8ED9A2031B1C2D2900424862 /* LaunchScreen.xib in Resources */,
+				8ED9A2001B1C2D2900424862 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED9A2061B1C2D2900424862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED9A1EF1B1C2D2900424862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED9A1FB1B1C2D2900424862 /* ViewController.swift in Sources */,
+				8ED9A1F91B1C2D2900424862 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED9A2041B1C2D2900424862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED9A20F1B1C2D2900424862 /* Easy_Authen2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED9A20A1B1C2D2900424862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED9A1F21B1C2D2900424862 /* Easy Authen2 */;
+			targetProxy = 8ED9A2091B1C2D2900424862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ED9A1FC1B1C2D2900424862 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED9A1FD1B1C2D2900424862 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ED9A2011B1C2D2900424862 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED9A2021B1C2D2900424862 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED9A2101B1C2D2900424862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ED9A2111B1C2D2900424862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED9A2131B1C2D2900424862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Authen2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8ED9A2141B1C2D2900424862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Authen2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8ED9A2161B1C2D2900424862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Easy Authen2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Authen2.app/Easy Authen2";
+			};
+			name = Debug;
+		};
+		8ED9A2171B1C2D2900424862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Easy Authen2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Authen2.app/Easy Authen2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED9A1EE1B1C2D2900424862 /* Build configuration list for PBXProject "Easy Authen2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED9A2101B1C2D2900424862 /* Debug */,
+				8ED9A2111B1C2D2900424862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED9A2121B1C2D2900424862 /* Build configuration list for PBXNativeTarget "Easy Authen2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED9A2131B1C2D2900424862 /* Debug */,
+				8ED9A2141B1C2D2900424862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8ED9A2151B1C2D2900424862 /* Build configuration list for PBXNativeTarget "Easy Authen2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED9A2161B1C2D2900424862 /* Debug */,
+				8ED9A2171B1C2D2900424862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED9A1EB1B1C2D2900424862 /* Project object */;
+}
