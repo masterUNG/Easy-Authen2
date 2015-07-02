@@ -13,6 +13,8 @@
 		8ED9A2001B1C2D2900424862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED9A1FF1B1C2D2900424862 /* Images.xcassets */; };
 		8ED9A2031B1C2D2900424862 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED9A2011B1C2D2900424862 /* LaunchScreen.xib */; };
 		8ED9A20F1B1C2D2900424862 /* Easy_Authen2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9A20E1B1C2D2900424862 /* Easy_Authen2Tests.swift */; };
+		8ED9A21B1B1C416600424862 /* masterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9A21A1B1C416600424862 /* masterViewController.swift */; };
+		C4D7F69C1B45ADFC003CAE15 /* masterUNG_swift2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D7F69B1B45ADFC003CAE15 /* masterUNG_swift2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8ED9A2081B1C2D2900424862 /* Easy Authen2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy Authen2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED9A20D1B1C2D2900424862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED9A20E1B1C2D2900424862 /* Easy_Authen2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_Authen2Tests.swift; sourceTree = "<group>"; };
+		8ED9A21A1B1C416600424862 /* masterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = masterViewController.swift; sourceTree = "<group>"; };
+		C4D7F69B1B45ADFC003CAE15 /* masterUNG_swift2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = masterUNG_swift2.png; path = ../../../../Desktop/masterUNG_swift2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				8ED9A1F81B1C2D2900424862 /* AppDelegate.swift */,
 				8ED9A1FA1B1C2D2900424862 /* ViewController.swift */,
+				8ED9A21A1B1C416600424862 /* masterViewController.swift */,
 				8ED9A1FC1B1C2D2900424862 /* Main.storyboard */,
 				8ED9A1FF1B1C2D2900424862 /* Images.xcassets */,
 				8ED9A2011B1C2D2900424862 /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		8ED9A1F61B1C2D2900424862 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4D7F69B1B45ADFC003CAE15 /* masterUNG_swift2.png */,
 				8ED9A1F71B1C2D2900424862 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,7 @@
 				8ED9A1FE1B1C2D2900424862 /* Main.storyboard in Resources */,
 				8ED9A2031B1C2D2900424862 /* LaunchScreen.xib in Resources */,
 				8ED9A2001B1C2D2900424862 /* Images.xcassets in Resources */,
+				C4D7F69C1B45ADFC003CAE15 /* masterUNG_swift2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED9A21B1B1C416600424862 /* masterViewController.swift in Sources */,
 				8ED9A1FB1B1C2D2900424862 /* ViewController.swift in Sources */,
 				8ED9A1F91B1C2D2900424862 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +419,7 @@
 				8ED9A2141B1C2D2900424862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8ED9A2151B1C2D2900424862 /* Build configuration list for PBXNativeTarget "Easy Authen2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				8ED9A2171B1C2D2900424862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
